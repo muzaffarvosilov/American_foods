@@ -1,0 +1,642 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.one {
+  width: 100%;
+  height: 600px;
+  background-color: #143E5F;
+  padding: 20px 50px 20px 50px;
+}
+
+.one nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px 20px 0px;
+}
+
+.one nav .burgos {
+  margin-left: 20px;
+  color: #fff;
+}
+
+.one nav .home {
+  margin-top: 5px;
+  margin-left: 550px;
+  color: #DDA437;
+  text-decoration: none;
+}
+
+.one nav .shop {
+  margin-top: 5px;
+  margin-left: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.one nav .about {
+  margin-top: 5px;
+  margin-left: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.one nav .pages {
+  margin-top: 5px;
+  margin-left: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.one nav .contact {
+  margin-top: 5px;
+  margin-left: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.one .best {
+  margin-top: 100px;
+  position: absolute;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+
+.one .head {
+  width: 450px;
+  height: 450px;
+  display: inline-block;
+  position: absolute;
+  border-radius: 48%;
+  margin-left: 760px;
+  background: url(img/image1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.one .callus {
+  position: absolute;
+  margin-left: 830px;
+  margin-top: 90px;
+  width: 300px;
+  height: 500px;
+  background-color: #DDA437;
+}
+
+.one .callus h2 {
+  margin-top: 380px;
+  margin-left: 50px;
+  color: #fff;
+}
+
+.one .free {
+  width: 200px;
+  height: 90px;
+  background-color: #fff;
+  margin-top: 400px;
+  margin-left: 45px;
+  padding: 5px 0px 0px 50px;
+}
+
+.one .free h2 {
+  font-size: larger;
+}
+
+.one .free p {
+  font-size: small;
+}
+
+.one .delevery {
+  width: 90px;
+  height: 90px;
+  background-color: #DDA437;
+  background-image: url(img/moto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -90px;
+  margin-left: 0px;
+  border-radius: 50%;
+}
+
+section {
+  width: 1000px;
+  height: 3650px;
+  border-left: 2px solid #808080;
+  border-right: 2px solid #808080;
+  margin-left: 180px;
+  margin-top: 15px;
+}
+
+section .spec {
+  width: 998px;
+  height: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  margin-top: 120px;
+  background-image: url(img/bg.png);
+  padding: 0px 0px 0px 50px;
+}
+
+section .spec .only {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: #DDA437;
+  position: absolute;
+  margin-left: 74%;
+  margin-top: 30px;
+}
+
+section .spec .only h1 {
+  text-align: center;
+  margin-top: 35%;
+}
+
+section .spec .only img {
+  width: 450px;
+  position: absolute;
+  margin-left: -280px;
+  margin-top: -150px;
+}
+
+section .spec .procent {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #DDA437;
+  position: absolute;
+  margin-top: 100px;
+}
+
+section .spec .procent h4 {
+  text-align: center;
+  margin-top: 35%;
+}
+
+section .spec .special {
+  position: absolute;
+  margin-top: 170px;
+  position: absolute;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 0px;
+  color: #FFFFFF;
+}
+
+section .spec p {
+  position: absolute;
+  margin-top: 220px;
+  color: #fff;
+}
+
+section .spec a {
+  position: absolute;
+  padding: 20px 50px 20px 50px;
+  background-color: #DDA437;
+  color: #fff;
+  margin-top: 300px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+section .bir {
+  width: 998px;
+  height: 3150px;
+  position: absolute;
+  margin-top: 520px;
+}
+
+section .bir .img3 {
+  position: absolute;
+  width: 450px;
+}
+
+section .bir .beef {
+  width: 510px;
+  height: 180px;
+  margin-left: 480px;
+  margin-top: 180px;
+}
+
+section .bir .beef .buy {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  background-color: #DDA437;
+  color: #fff;
+}
+
+section .bir .beef h1 {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+section .bir .beef h3 {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section .bir .beef p {
+  font-size: xx-small;
+  margin-bottom: 10px;
+}
+
+section .bir .beef .h3 {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+section .bir .img4 {
+  position: absolute;
+  width: 450px;
+  margin-left: 530px;
+}
+
+section .bir .chick {
+  width: 510px;
+  height: 180px;
+  margin-left: 0px;
+  margin-top: 120px;
+}
+
+section .bir .chick h1 {
+  font-weight: 800;
+  font-size: 30px;
+  text-align: right;
+}
+
+section .bir .chick h3 {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+section .bir .chick p {
+  font-size: xx-small;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+section .bir .chick .h3 {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 332px;
+}
+
+section .bir .chick .buy {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  background-color: #DDA437;
+  color: #fff;
+  text-align: right;
+  margin-left: 20px;
+}
+
+section .bir .img5 {
+  position: absolute;
+  width: 450px;
+}
+
+section .bir .classic {
+  width: 510px;
+  height: 180px;
+  margin-left: 480px;
+  margin-top: 180px;
+}
+
+section .bir h1 {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+section .bir h3 {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section .bir p {
+  font-size: xx-small;
+  margin-bottom: 10px;
+}
+
+section .bir .h3 {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+section .bir .buy {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  background-color: #DDA437;
+  color: #fff;
+}
+
+section .bir .our {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 120px;
+}
+
+section .bir .ikki {
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+  border: 2px solid #BFBFBF;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 70px;
+  background-image: url(img/image6.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 104% 50%;
+  padding: 50% 0px 0px 0px;
+}
+
+section .bir .ikki .star {
+  margin-top: -200px;
+  text-align: center;
+}
+
+section .bir .ikki h3 {
+  text-align: center;
+}
+
+section .bir .ikki h1 {
+  text-align: center;
+  color: #DDA437;
+}
+
+section .bir .ikki a {
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  background-color: #DDA437;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 80px;
+}
+
+section .bir .ikki div {
+  margin-top: 20px;
+}
+
+section .bir .uch {
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+  border: 2px solid #BFBFBF;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: url(img/image7.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 104% 50%;
+  padding: 50% 0px 0px 0px;
+}
+
+section .bir .uch .star {
+  margin-top: -200px;
+  text-align: center;
+}
+
+section .bir .uch h3 {
+  text-align: center;
+}
+
+section .bir .uch h1 {
+  text-align: center;
+  color: #DDA437;
+}
+
+section .bir .uch a {
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  background-color: #DDA437;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 80px;
+}
+
+section .bir .uch div {
+  margin-top: 20px;
+}
+
+section .bir .tort {
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+  border: 2px solid #BFBFBF;
+  border-radius: 10px;
+  margin-top: 70px;
+  background-image: url(img/image8.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 104% 50%;
+  padding: 50% 0px 0px 0px;
+}
+
+section .bir .tort .star {
+  margin-top: -200px;
+  text-align: center;
+}
+
+section .bir .tort h3 {
+  text-align: center;
+}
+
+section .bir .tort h1 {
+  text-align: center;
+  color: #DDA437;
+}
+
+section .bir .tort a {
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  background-color: #DDA437;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 80px;
+}
+
+section .bir .tort div {
+  margin-top: 20px;
+}
+
+section .bir .how {
+  text-align: center;
+  margin-top: 50px;
+}
+
+section .bir .img9 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  font-size: 40px;
+  margin-left: 15%;
+}
+
+section .bir .play {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+section .bir .quis {
+  text-align: center;
+  margin-top: 20px;
+  font-size: small;
+}
+
+section .bir .img10 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  font-size: 40px;
+  margin-left: 70%;
+  margin-top: -160px;
+}
+
+section .bir .select {
+  margin-left: -550px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+section .bir .lor {
+  margin-left: -550px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: small;
+}
+
+section .bir .img11 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin-left: 43%;
+  margin-top: -140px;
+}
+
+section .bir .pickup {
+  margin-left: 70%;
+  margin-top: -135px;
+}
+
+section .bir .lorem {
+  margin-left: 70%;
+  margin-top: 0px;
+}
+
+section .bir .ourc {
+  text-align: center;
+  margin-top: 60px;
+}
+
+section .bir .time {
+  width: 33%;
+  height: 230px;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+section .bir .time .soat {
+  width: 100px;
+  height: 100px;
+  margin-left: 35%;
+}
+
+section .bir .time h3, section .bir .time h2 {
+  text-align: center;
+}
+
+section .bir .phone {
+  width: 33%;
+  height: 230px;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+section .bir .phone .tel {
+  width: 100px;
+  height: 100px;
+  margin-left: 35%;
+}
+
+section .bir .phone h3, section .bir .phone h2 {
+  text-align: center;
+}
+
+section .bir .adres {
+  width: 33%;
+  height: 230px;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+section .bir .adres .location {
+  width: 100px;
+  height: 100px;
+  margin-left: 35%;
+}
+
+section .bir .adres h3, section .bir .adres h2 {
+  text-align: center;
+}
+
+section .bir .locationincart {
+  width: 890px;
+  height: 350px;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+
+section .bir .insta {
+  width: 200px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 38%;
+  margin-top: -5px;
+}
+
+section .bir .insta img {
+  width: 18px;
+  height: 18px;
+}
+
+section .bir .insta .burgoss {
+  display: inline;
+  margin-top: -5px;
+  margin-left: 8px;
+}
+/*# sourceMappingURL=style.css.map */
